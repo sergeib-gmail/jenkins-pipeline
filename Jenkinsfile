@@ -15,7 +15,7 @@ pipeline {
 		} 
         	stage('Contrast Verification') {
 			steps{
-            			contrastVerification profile: 'Demo Profile', appVersionTagFormat: 2, applicationName: 'WebGoat7_Jenkins_Selenium-Master', count: 0, severity: 'High'
+            			contrastVerification profile: 'Demo Profile', queryBy: 2, applicationName: 'WebGoat7_Jenkins_Selenium-Master', count: 0, severity: 'High'
         		}
 		}
         }
