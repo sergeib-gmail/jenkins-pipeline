@@ -15,7 +15,7 @@ pipeline {
 		} 
         	stage('Contrast Verification') {
 			steps{
-            			contrastVerification profile: 'Demo Profile', queryBy: 2, applicationName: '85d9cd70-7546-434a-b4f7-8691a746f1a1', count: 0, severity: 'High'
+            			contrastVerification profile: 'Demo Profile', queryBy: 2, applicationId: '85d9cd70-7546-434a-b4f7-8691a746f1a1', count: 0, severity: 'High'
         		}
 		}
         }
